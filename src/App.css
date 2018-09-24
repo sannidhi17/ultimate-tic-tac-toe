@@ -1,0 +1,106 @@
+.game {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  background-color: #222;
+  color: #FCFCFC;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
+}
+
+.rules {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.game-board {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+.board {
+  width: 50%;
+}
+
+.status {
+  font-size: 25px;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  color: #585454;
+}
+
+.square {
+  width: 30%;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.box* {
+  position: absolute;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.square-row {
+  display: inline-block;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.board-row1 {
+  position: absolute;
+  display: block;
+  width: 70%;
+  top: 100%;
+  left: 23%;
+}
+
+.board-row2 {
+  position: absolute;
+  display: block;
+  width: 70%;
+  top: 400%;
+  left: 23%;
+}
+
+.board-row3 {
+  position: absolute;
+  display: block;
+  width: 70%;
+  top: 700%;
+  left: 23%;
+}
+
+.box0, .box1, .box2 {
+  width: 27%;
+  height: 0%;
+  float: left;
+  display: inline-block;
+  padding-top: 1%;
+}
+
+.box3, .box4, .box5 {
+  width: 27%;
+  height: 0%;
+  float: left;
+  display: inline-block;
+  padding-top: 1%;
+}
+
+.box6, .box7, .box8 {
+  width: 27%;
+  height: 0%;
+  float: left;
+  display: inline-block;
+  padding-top: 1%;
+}
